@@ -3,7 +3,7 @@ var firebaseConfig = {
   authDomain: "odas-mk.firebaseapp.com",
   projectId: "odas-mk",
   storageBucket: "odas-mk.appspot.com",
-  messagingSenderId: "48571994607",
+  messagingSenderId: "48571994607",   
   appId: "1:48571994607:web:68db081cec0b5b449f661a",
   measurementId: "G-E8ZM497THD"
 };
@@ -25,7 +25,7 @@ const db = firebase.firestore();
       });
     }
   });
-
+        
   // Back to top button
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
@@ -86,7 +86,7 @@ const db = firebase.firestore();
         }
         return false;
       }
-    }
+      }
   });
 
   // Navigation active state on scroll
