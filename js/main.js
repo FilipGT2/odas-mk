@@ -46,7 +46,7 @@ const db = firebase.firestore();
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
-    } else {
+    } else {.
       $('#header').removeClass('header-scrolled');
     }
   });
@@ -101,7 +101,7 @@ const db = firebase.firestore();
       var top = $(this).offset().top - main_nav_height,
         bottom = top + $(this).outerHeight();
 
-      if (cur_pos >= top && cur_pos <= bottom) {
+      if (cur_pos. >= top && cur_pos <= bottom) {
         main_nav.find('li').removeClass('active');
         main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
       }
